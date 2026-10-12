@@ -1,0 +1,171 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> i love jazzy </title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div id="hearts" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a href="#cover">hey jazzy 😏😏😏</span>
+  </header>
+
+  <main>
+    <!-- COVER -->
+    <section class="cover" id="cover">
+      <span class="doodle doodle-one">✿</span>
+      <span class="doodle doodle-two">♡</span>
+
+      <div class="cover-paper">
+        <p class="handwritten">something i've been wanting to tell you...</p>
+        <h1>a little sum<br>about <span>us.</span></h1>
+
+        <div class="cover-photo taped">
+          <img src="photos/memory1.jpg" alt="My favourite photo of us">
+          <p>me and my favourite person</p>
+        </div>
+
+        <a class="scroll-link" href="#music">flip through our story ↓</a>
+      </div>
+    </section>
+
+        <!-- MUSIC -->
+    <section class="music-section" id="music">
+      <div class="music-note">♫</div>
+      <p class="handwritten">a song for you</p>
+      <h2>press play while you read</h2>
+      <p>because most songs remind me of you, but this one in particular</p>
+
+      <audio id="song" src="music/song.mp3" loop preload="none"></audio>
+      <button id="music-button" class="music-button" type="button">
+        ▶ play our song ♡
+      </button>
+      <p id="music-status" aria-live="polite"></p>
+    </section>
+
+    <!-- MEMORY ONE -->
+    <section class="memory memory-left" id="story">
+      <div class="paper">
+        <p class="chapter">THE START</p>
+        <div class="photo taped tilt-left">
+          <img src="photos/memory2.jpg" alt="A memory from the beginning">
+        </div>
+        <p class="handwritten">where it all started...    (not really)</p>
+        <h2>the beginning of us</h2>
+        <p>
+          Of course, we first met back in year 10,
+          but thats not where our story begins.
+          I remember looking at you in Thai class and imagining going out on dates with you,
+          but i never had the courage to do anything about it (probably for good reason).
+          <br><br>
+          But now, here we are...
+        </p>
+        <span class="sticker">our first chapter ♡</span>
+      </div>
+    </section>
+
+    <!-- MEMORY TWO -->
+    <section class="memory memory-right">
+      <div class="paper paper-pink">
+        <p class="chapter">A FAVOURITE MEMORY</p>
+        <div class="photo taped tilt-right">
+          <img src="photos/memory3.jpg" alt="One of our favourite memories">
+        </div>
+        <p class="handwritten">i wish i could relive this day</p>
+        <h2>one of my favourite days</h2>
+        <p>
+          We walked and talked and sang and danced in the rain
+          and i loved every second of it. 
+          <br><br>
+          Even though you were paranoid the whole time that 
+          Emma J was going to find us, i still thought we had a great night.
+        </p>
+        <span class="doodle-inline">♡ ♡ ♡</span>
+      </div>
+    </section>
+
+    <!-- MEMORY THREE -->
+    <section class="memory memory-left">
+      <div class="paper">
+        <p class="chapter">LITTLE THINGS</p>
+        <div class="photo taped tilt-left">
+          <img src="photos/memory4.jpg" alt="Another special moment together">
+        </div>
+        <p class="handwritten">it's the little things</p>
+        <h2>things that remind me of you</h2>
+        <ul class="little-list">
+          <li>the way you make me laugh</li>
+          <li>the little things you do</li>
+          <li>the time we spend together</li>
+          <li>just getting to be around you</li>
+        </ul>
+        <p>
+          I just love everythign about you, from your messy hair,
+          to your dogs (not your actual animal dogs).
+        </p>
+        <span class="sticker">collected with love</span>
+      </div>
+    </section>
+
+    <!-- PHOTO COLLAGE -->
+    <section class="collage-section">
+      <p class="handwritten">a few little snapshots ♡</p>
+      <h2>memories i want to keep</h2>
+
+      <div class="collage">
+        <figure class="polaroid polaroid-one">
+          <img src="photos/gallery1.jpg" alt="A favourite photo">
+          <figcaption>you + me</figcaption>
+        </figure>
+        <figure class="polaroid polaroid-two">
+          <img src="photos/gallery2.jpg" alt="Another favourite photo">
+          <figcaption>one for the scrapbook ♡</figcaption>
+        </figure>
+      </div>
+      <p class="collage-note">here's to making many more memories.</p>
+    </section>
+
+
+
+    <!-- THE FINAL PAGE -->
+    <section class="ending" id="question">
+      <div class="ending-paper">
+        <p class="chapter">THE LAST PAGE... FOR NOW</p>
+        <div class="ending-heart">♡</div>
+        <p class="handwritten">there's one more thing...</p>
+
+        <h2>I'm really glad<br>it's you.</h2>
+
+        <p class="ending-message">
+          Out of all the people I could have met, I'm so happy
+          I met you. I love the memories we've made, and I want
+          to make so many more with you.
+        </p>
+
+        <p class="big-question">will you be my girlfriend?</p>
+
+        <div class="answer-buttons">
+          <button class="yes-button" type="button">
+            YES ♡
+          </button>
+          <button class="yes-button yes-alt" type="button">
+            YES!!
+          </button>
+        </div>
+
+        <p id="answer-message" aria-live="polite"></p>
+        <p class="handwritten signature">love, poopy ♡</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>made with love, just for you.</p>
+  </footer>
+</body>
+</html>
